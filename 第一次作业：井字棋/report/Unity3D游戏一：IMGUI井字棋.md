@@ -94,13 +94,15 @@
 
 ### 游戏截图
 
-![1567693683(1)](T:\TH\大三上\3D游戏设计\2离散仿真引擎基础\井字棋\1567693683(1).jpg)
+![demo](..\images\demo.jpg)
+
+### 视频链接
 
 
 
 
 
-参考资料：
+### 参考资料
 
 [Unity3D用户手册中文翻译 by 游戏蛮牛][http://docs.manew.com/Manual/index.htm]
 
