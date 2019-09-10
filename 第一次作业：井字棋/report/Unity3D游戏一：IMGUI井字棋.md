@@ -94,7 +94,7 @@
 
 ### 游戏截图
 
-![demo](..\images\demo.jpg)
+![demo](https://github.com/Tifinity/Unity3DStudy-master/blob/master/第一次作业：井字棋/images/demo.jpg)
 
 ### 视频链接
 
