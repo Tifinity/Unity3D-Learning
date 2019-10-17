@@ -10,7 +10,7 @@
 
 ## 项目地址与演示视频
 
-项目地址 ->[传送门🚪](https://github.com/Tifinity/Unity3DStudy-master/tree/master/%E9%A1%B9%E7%9B%AE%E4%BA%94%EF%BC%9A%E7%AE%80%E5%8D%95%E6%89%93%E9%A3%9E%E7%A2%9F)
+项目地址 -> [传送门🚪](https://github.com/Tifinity/Unity3DStudy-master/tree/master/%E9%A1%B9%E7%9B%AE%E4%BA%94%EF%BC%9A%E7%AE%80%E5%8D%95%E6%89%93%E9%A3%9E%E7%A2%9F)
 
 视频连接 -> [传送门🚪](https://www.bilibili.com/video/av70636842/)
 
@@ -125,10 +125,12 @@
   ~~~c#
 action_manager.DiskFly(disk, angle, power);//运动学变换
   //action_manager.DiskFly(disk, power);//物理引擎
-~~~
+  ~~~
 
 
 
 ## 总结
 
 本次作业主要是了解了物理引擎在Unity3D中的使用，包括FixedUpdate函数，刚体组件，对游戏对象速度和力的操作，使用物理引擎就不需要模拟运动学的位置变换，使用复杂的公式计算。总的来说过程比较顺利，没有太大的阻碍。
+
+

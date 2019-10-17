@@ -15,9 +15,9 @@
 
 ## 项目地址与演示视频
 
-项目地址 -> [传送门🚪](https://github.com/Tifinity/Unity3DStudy-master/tree/master/%E9%A1%B9%E7%9B%AE%E5%85%AD%EF%BC%9A%E7%AE%80%E5%8D%95%E6%89%93%E9%A3%9E%E7%A2%9F%EF%BC%88%E7%89%A9%E7%90%86%E5%BC%95%E6%93%8E%EF%BC%89)
+项目地址 -> [传送门🚪](https://github.com/Tifinity/Unity3DStudy-master/tree/master/%E9%A1%B9%E7%9B%AE%E4%B8%83%EF%BC%9A%E7%AE%80%E5%8D%95%E6%89%93%E9%9D%B6)
 
-视频连接 -> [传送门🚪](https://www.bilibili.com/video/av70636842/)
+视频连接 -> [传送门🚪]( https://www.bilibili.com/video/av71567483/ )
 
 
 
