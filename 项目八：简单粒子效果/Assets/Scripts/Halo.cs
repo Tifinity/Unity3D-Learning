@@ -64,6 +64,17 @@ public class Halo : MonoBehaviour {
         RandomlySpread();   
     }
 
+    void ChangeColor() {
+        float colorValue;
+        for (int i = 0; i < pCount; i++) {
+            //改变颜色
+            colorValue = (Time.realtimeSinceStartup - Mathf.Floor(Time.realtimeSinceStartup))/2;
+            colorValue += circle[i].angle / 360;
+            if (colorValue > 1) colorValue -= 1;
+            particleArr[i].startColor = colorGradient.Evaluate(colorValue);
+        }
+    }
+
     void RandomlySpread() {
         // 初始化各粒子位置
         // 随机每个粒子距离中心的半径，同时希望粒子集中在平均半径附近
@@ -89,7 +100,6 @@ public class Halo : MonoBehaviour {
     }
 
     void Update() {
-        
         for (int i = 0; i < pCount; i++) {
             if (ischange) {
                 // 开始收缩
@@ -112,11 +122,12 @@ public class Halo : MonoBehaviour {
             circle[i].time += Time.deltaTime;
             circle[i].radius += Mathf.PingPong(circle[i].time, pingPong) - pingPong / 2.0f;
 
-            particleArr[i].startColor = colorGradient.Evaluate(circle[i].angle / 360.0f);
+            //particleArr[i].startColor = colorGradient.Evaluate(circle[i].angle / 360.0f);
             particleArr[i].position = new Vector3(circle[i].radius * Mathf.Cos(theta), 0f, circle[i].radius * Mathf.Sin(theta));    
         }
+        ChangeColor();
         particleSys.SetParticles(particleArr, particleArr.Length);
-
+        
         // 碰撞检测
         ray = camera.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit) && hit.collider.gameObject.tag == "button") ischange = true;
